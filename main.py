@@ -1,11 +1,4 @@
-import controller
+import contacts
+import book
 
-
-
-
-if __name__ == '__main__':
-    controller.start()
-
-
-
-
+print(book.PhoneBook('DB_contacts.txt'))
