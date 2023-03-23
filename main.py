@@ -1,4 +1,9 @@
-import contacts
-import book
 
-print(book.PhoneBook('DB_contacts.txt'))
+import menu
+def start(function):
+    return function
+
+start(menu.print_menu)()
+
+
+

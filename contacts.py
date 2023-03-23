@@ -6,3 +6,9 @@ class Contact:
 
     def __str__(self):
         return f'{self.name:.<30} | {self.phone:.<30} | {self.comment}'
+
+    def to_string(self):
+        return f'{self.name};{self.phone};{self.comment}'
+
+    # def to_string_print(self):
+    #     return f'{self.name:.<30} | {self.phone:.<30} | {self.comment}'

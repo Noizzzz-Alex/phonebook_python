@@ -1,7 +1,5 @@
-four;444;4
-second;222;2
-third;333;3
-four;444;4
-five;555;5
-nine;999;9
-secron;34562;wood
+Geralt from Rivia;7854689214;the Witcher
+Kazimir;97546621546;the painter
+Sasha Baron;4786321523;the actor
+Vesemir;78557891524;the old witcher
+Антон;000-000;нехороший человек
