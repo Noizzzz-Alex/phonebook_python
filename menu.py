@@ -26,9 +26,9 @@ while True:
         name = input('Введите имя или нажмите Enter чтобы оставить без изменений: ')
         phone = input('Введите номер или нажмите Enter чтобы оставить без изменений: ')
         comment = input('Введите комментарий или нажмите Enter чтобы оставить без изменений: ')
-        book.PhoneBook.change_contact(index, name, phone, comment)
+        book.PhoneBook.change_contact(index - 1, name, phone, comment)
     if chose == '5':
-        index = input('Введите индекс контакта для удаления: ')
+        index = int(input('Введите индекс контакта для удаления: '))
         book.PhoneBook.delete_contact(pb, index - 1)
     if chose == '6':
         break
